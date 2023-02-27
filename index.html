@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-widtth, intitial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+            integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+            <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"/>
+        <title>Team Roster</title>
+    </head>
+
+    <body>
+        <div class="jumbotron jumbotron-fluid text-center bg-primary ">
+            <div class="container">
+                <h1 class="display-6 text-light">My Team</h1>
+                <h1 class="display-6 text-light"><i class="fas fa-users"></i></h1>
+            </div>
+        </div>
+
+        <div class = "container ">
+            <div class="col-md-12">
+                <div class="row" id = "sortable">,<div class="card m-2">
+    <div class="card-header bg-primary text-light">
+        <h1>Tony</h1>
+        <hr>
+        <h2><i class="fas fa-briefcase"></i> Manager</h2>
+    </div>
+    <div class= "card-body">
+            <div class="list-group">
+                <p class="list-group-item list-group-item-action list-group-item-dark">ID: <span>123</span></p>
+                <p class="list-group-item list-group-item-action list-group-item-dark">Email: <span><a target="_blank" rel="noopener noreferrer" href="mailto:jalensanson@gmail.com">tonystark@gmail.com</a></span></p>
+                <p class="list-group-item list-group-item-action list-group-item-dark">Office Number: <span>99</span></p>
+            </div>
+    </div>
+</div>,<div class="card m-2">
+    <div class="card-header bg-primary text-light">
+        <h1>Tri</h1>
+        <hr>
+        <h2><i class="fas fa-wrench"></i> Engineer</h2>
+    </div>
+    <div class= "card-body">
+            <div class="list-group">
+                <p class="list-group-item list-group-item-action list-group-item-dark">ID: <span>456</span></p>
+                <p class="list-group-item list-group-item-action list-group-item-dark">Email: <span><a target="_blank" rel="noopener noreferrer" href="mailto:trichauphuoc@gmail.com">trichauphuoc@gmail.com</a></span></p>
+                <a href = https://github.com/nhanng19 target="_blank"><button class="list-group-item list-group-item-action list-group-item-dark">GitHub: trichau0206</button></a>
+            </div>
+    </div>
+</div>,<div class="card m-2">
+    <div class="card-header bg-primary text-light">
+        <h1>Steve</h1>
+        <hr>
+        <h2><i class="fas fa-wrench"></i> Engineer</h2>
+    </div>
+    <div class= "card-body">
+            <div class="list-group">
+                <p class="list-group-item list-group-item-action list-group-item-dark">ID: <span>789</span></p>
+                <p class="list-group-item list-group-item-action list-group-item-dark">Email: <span><a target="_blank" rel="noopener noreferrer" href="mailto:steverogers@gmail.com">steverogers@gmail.com</a></span></p>
+                <a href = https://github.com target="_blank"><button class="list-group-item list-group-item-action list-group-item-dark">GitHub: </button></a>
+            </div>
+    </div>
+</div>,<div class="card m-2">
+    <div class="card-header bg-primary text-light">
+        <h1>Dior</h1>
+        <hr>
+        <h2><i class="fas fa-wrench"></i> Engineer</h2>
+    </div>
+    <div class= "card-body">
+            <div class="list-group">
+                <p class="list-group-item list-group-item-action list-group-item-dark">ID: <span>459</span></p>
+                <p class="list-group-item list-group-item-action list-group-item-dark">Email: <span><a target="_blank" rel="noopener noreferrer" href="mailto:dior@gmail.com">dior@gmail.com</a></span></p>
+                <a href = https://github.com target="_blank"><button class="list-group-item list-group-item-action list-group-item-dark">GitHub: Dior</button></a>
+            </div>
+    </div>
+</div>,<div class="card m-2">
+    <div class="card-header bg-primary text-light">
+        <h1>Jimmy</h1>
+        <hr>
+        <h2><i class="fa-solid fa-user-tie"></i> Intern</h2>
+     </div>
+    <div class= "card-body">
+            <div class="list-group">
+                <p class="list-group-item list-group-item-action list-group-item-dark">ID: <span>159</span></p>
+                <p class="list-group-item list-group-item-action list-group-item-dark">Email: <span><a target="_blank" rel="noopener noreferrer" href="mailto:jimmychoo@gmail.com">jimmychoo@gmail.com</a></span></p>
+                <p class="list-group-item list-group-item-action list-group-item-dark">School: <span></span></p>
+            </div>
+    </div>
+</div>,</div>
+    </div>
+</div> 
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script>
+  $(function () {
+    $('#sortable').sortable();
+    $('#sortable').disableSelection();
+  });
+</script> 
+</body>
+</html>
